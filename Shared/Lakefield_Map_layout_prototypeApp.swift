@@ -11,7 +11,9 @@ import SwiftUI
 struct Lakefield_Map_layout_prototypeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                ContentView()
+            }
         }
     }
 }

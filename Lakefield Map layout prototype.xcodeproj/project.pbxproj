@@ -13,6 +13,8 @@
 		5702473625C32461004D25C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5702472125C3245D004D25C8 /* ContentView.swift */; };
 		5702473725C32461004D25C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5702472225C32461004D25C8 /* Assets.xcassets */; };
 		5702473825C32461004D25C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5702472225C32461004D25C8 /* Assets.xcassets */; };
+		5702474525C32491004D25C8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5702474425C32491004D25C8 /* MapView.swift */; };
+		5702474625C32491004D25C8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5702474425C32491004D25C8 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		5702472F25C32461004D25C8 /* Lakefield Map layout prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lakefield Map layout prototype.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5702473125C32461004D25C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5702473225C32461004D25C8 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		5702474425C32491004D25C8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				5702471F25C3245D004D25C8 /* Shared */,
+				5702474325C32478004D25C8 /* View */,
 				5702472925C32461004D25C8 /* iOS */,
 				5702473025C32461004D25C8 /* macOS */,
 				5702472825C32461004D25C8 /* Products */,
@@ -88,6 +92,14 @@
 				5702473225C32461004D25C8 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		5702474325C32478004D25C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5702474425C32491004D25C8 /* MapView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5702473525C32461004D25C8 /* ContentView.swift in Sources */,
+				5702474525C32491004D25C8 /* MapView.swift in Sources */,
 				5702473325C32461004D25C8 /* Lakefield_Map_layout_prototypeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5702473625C32461004D25C8 /* ContentView.swift in Sources */,
+				5702474625C32491004D25C8 /* MapView.swift in Sources */,
 				5702473425C32461004D25C8 /* Lakefield_Map_layout_prototypeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
